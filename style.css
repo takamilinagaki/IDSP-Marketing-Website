@@ -1,0 +1,200 @@
+body{
+    padding:1.875rem 1.3rem;
+    font-family: 'Lato';
+    
+}
+
+main{
+    padding: 10rem 2.5rem;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo_section{
+    font-size: 1rem;
+}
+
+
+.links_to_other_pages{
+    padding-top: 3rem;
+    font-size: 1.5rem;
+}
+
+.links_to_other_pages a{
+    text-decoration: none;
+    padding: 1.3rem;
+    cursor: pointer;
+}
+
+.getApp_button{
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.getApp_button a{
+    text-decoration: none;
+}
+
+.homepage_texts_section{
+    display: flex;
+    flex-direction: column;
+}
+
+.homepage_texts_section h1{
+    font-size: 6rem;
+}
+
+.homepage_texts_section p{
+    font-size: 2rem;
+}
+
+.homepage_texts_section_buttons{
+    display: flex;
+    flex-direction: row;
+    padding-top: 6rem;
+    gap: 40px;
+}
+
+.button{
+    background-color: #FFDC3E;
+    text-decoration: none;
+    border-radius: 2.5rem;
+    font-size: 1.7rem;
+    width: 20rem;
+    height: 6rem;
+    text-align: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+}
+
+.submit_button{
+    background-color: #FFDC3E;
+    text-decoration: none;
+    border-radius: 2.5rem;
+    font-size: 1.4rem;
+    width: 14rem;
+    height: 5rem;
+    text-align: center;
+    align-items: center;
+    border: none;
+}
+
+.logo{
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+.logo_section{
+    display: flex;
+    flex-direction: row;
+}
+
+.rate_pic{
+    width: 7rem;
+}
+
+.feedback_name_email{
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+}
+
+.main_feedback{
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback_name_email input{
+     width: 20rem;
+     height: 2rem;
+}
+
+.feedback_section textarea{
+    width: 60rem;
+    height: 48rem;
+}
+
+.feedback_main{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+}
+
+.rate_number{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.rate_each_section{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+.rate_each_section_texts{
+    display: flex;
+    flex-direction: row;
+}
+
+.rating{
+    display: flex;
+    flex-direction: row;
+    gap: 3.5rem;
+}
+
+
+.feedback_section{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.feedback_section label{
+    font-size: 1.2rem;
+}
+
+.thankyouPage_main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 10rem;
+}
+
+.thankyouPage_main h1{
+    font-size: 3rem;
+}
+
+.thankYou_logo{
+    width: 40rem;
+}
+
+.back_to_home_button{
+    padding-top: 7rem;
+}
+
+.about_main,
+.feature_main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.features{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 8.125rem;
+    padding-top: 1.875px;
+}
+
+.feature_pic{
+    width: 
+}
