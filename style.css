@@ -195,6 +195,60 @@ header{
     padding-top: 1.875px;
 }
 
-.feature_pic{
-    width: 
+.members img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.members{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 90px;
+    position: absolute;
+    top: 600px;
+    padding: 0 40px;
+    padding-bottom: 200px;
+}
+
+
+.members p{
+    font-size: 20px;
+}
+
+.background h1{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+}
+
+.background{
+    background-color: #FFDC3E;
+    width: 162vh;
+    height: 500px;
+}
+
+.homepage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.homepage_screendisplay_section{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.homepage_screendisplay_section img{
+    width: 250px;
+    margin: 50px;
+}
+
+
+
+.homepage_main{
+    padding:8rem 8rem;
 }
