@@ -1,5 +1,5 @@
 body{
-    margin: 3em;
+    margin: 3em 3em;
     font-family: 'Lato';
     width: 1440px;
 }
@@ -220,12 +220,16 @@ header{
     margin-top: 2em;
     gap: 2em;
     padding-bottom: 200px;
-    width: 2560px;
+    width: 100%;
 }
 
 
 .members p{
     font-size: 20px;
+}
+
+.main_members{
+    display: flex;
 }
 
 .background h1{
@@ -242,6 +246,8 @@ header{
     align-items: center;
     background-color: #FFDC3E;
     height: 31.25em;
+    width: 100%;
+    margin-right: 2em;
 }
 
 .homepage{
