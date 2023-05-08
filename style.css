@@ -1,27 +1,27 @@
 body{
-    padding:1.875rem 1.3rem;
+    margin: 3em;
     font-family: 'Lato';
-    
+    width: 1440px;
 }
 
-main{
-    padding: 10rem 2.5rem;
-}
 
 header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin: 2em 2em;
 }
 
 .logo_section{
-    font-size: 1rem;
+    font-size: 1em;
 }
 
 
 .links_to_other_pages{
-    padding-top: 3rem;
     font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .links_to_other_pages a{
@@ -33,6 +33,9 @@ header{
 .getApp_button{
     font-size: 1.2rem;
     text-decoration: none;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
 }
 
 .getApp_button a{
@@ -45,14 +48,10 @@ header{
 }
 
 .homepage_texts_section h1{
-    font-size: 6rem;
+    font-size: 2em;
 }
 
-.homepage_texts_section p{
-    font-size: 2rem;
-}
-
-.homepage_texts_section_buttons{
+.homepage_texts_section_buttons {
     display: flex;
     flex-direction: row;
     padding-top: 6rem;
@@ -60,16 +59,23 @@ header{
 }
 
 .button{
+    display: flex;
+    justify-content: center;
     background-color: #FFDC3E;
     text-decoration: none;
     border-radius: 2.5rem;
     font-size: 1.7rem;
-    width: 20rem;
-    height: 6rem;
+    width: 10em;
+    height: 3em;
     text-align: center;
     align-items: center;
     border: none;
     cursor: pointer;
+}
+
+.button:hover{
+    background-color: #0A78C2;
+    color: white;
 }
 
 .submit_button{
@@ -197,20 +203,24 @@ header{
 
 .members img{
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
 }
+.membersContaienr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
 .members{
     display: flex;
     flex-direction: row;
     justify-content: center;
     text-align: center;
-    gap: 90px;
-    position: absolute;
-    top: 600px;
-    padding: 0 40px;
+    margin-top: 2em;
+    gap: 2em;
     padding-bottom: 200px;
+    width: 2560px;
 }
 
 
@@ -226,15 +236,17 @@ header{
 }
 
 .background{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #FFDC3E;
-    width: 162vh;
-    height: 500px;
+    height: 31.25em;
 }
 
 .homepage{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 }
 
 .homepage_screendisplay_section{
@@ -250,10 +262,12 @@ header{
 
 
 .homepage_main{
-    padding:8rem 8rem;
+    margin: 2em 2em;
 }
 
 
 .about_texts p{
+    margin: 2em 2em;
     font-size: 18px;
+    width: 40em;
 }
