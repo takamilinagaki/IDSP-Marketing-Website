@@ -252,3 +252,8 @@ header{
 .homepage_main{
     padding:8rem 8rem;
 }
+
+
+.about_texts p{
+    font-size: 18px;
+}
