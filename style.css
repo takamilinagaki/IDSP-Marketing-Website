@@ -90,6 +90,11 @@ header{
     border: none;
 }
 
+.submit_button:hover{
+    background-color: #0A78C2;
+    color: white;
+}
+
 .logo{
     width: 4.5rem;
     height: 4.5rem;
@@ -288,12 +293,12 @@ header{
 }
 
 .feature_title{
-    font-size: 15px;
+    font-size: 18px;
     text-align: center;
 }
 
 .feature_description{
-    font-size: 10px;
+    font-size: 16px;
     padding-top: 20px;
     width: 200px;
     text-align: center;
