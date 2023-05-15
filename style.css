@@ -1,7 +1,7 @@
-body{
+body,html{
     margin: 3em 3em;
     font-family: 'Lato';
-    width: 1440px;
+    margin: 0;
 }
 
 
@@ -102,7 +102,7 @@ header{
 
 .logo_section{
     display: flex;
-    align-items: center;
+    align-items: center;    
     flex-direction: row;
     width: 700px;
     font-size: 26px;
@@ -171,7 +171,7 @@ header{
 }
 
 .feedback_section label{
-    font-size: 22px;
+    font-size: 1.2rem;
 }
 
 .thankyouPage_main{
@@ -200,7 +200,7 @@ header{
     flex-direction: column;
     align-items: center;
     gap: 2.5rem;
-    font-size: 24px;
+    font-size: 24px;    
 }
 
 .about_main video{
@@ -306,8 +306,32 @@ header{
 }
 
 .feature_description{
-    font-size: 18px;
+    font-size: 1px;
     padding-top: 20px;
     width: 200px;
     text-align: center;
 }
+
+footer{
+    padding-top: 100px;
+}
+
+.footer-inside{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background-color: #FFDC3E;
+ }
+ 
+ 
+ .right-footer{
+    text-align: right;
+ }
+ 
+ 
+ .contact-us-link{
+    text-decoration: none;
+    font-size: 13px;
+ }
+ 
